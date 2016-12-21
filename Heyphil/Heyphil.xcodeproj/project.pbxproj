@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E41F3251E021C4200950240 /* DataVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41F3241E021C4200950240 /* DataVariable.swift */; };
+		0E41F34B1E023CDF00950240 /* SearchProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41F34A1E023CDF00950240 /* SearchProvider.swift */; };
 		0E50A7761DFA55AB002085A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50A7751DFA55AB002085A0 /* AppDelegate.swift */; };
 		0E50A7781DFA55AB002085A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50A7771DFA55AB002085A0 /* ViewController.swift */; };
 		0E50A77B1DFA55AB002085A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E50A7791DFA55AB002085A0 /* Main.storyboard */; };
@@ -16,10 +17,28 @@
 		0E895C3F1DFFC2DF006523F7 /* PreRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E895C3E1DFFC2DF006523F7 /* PreRegister.swift */; };
 		0E895C411DFFD957006523F7 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E895C401DFFD957006523F7 /* Registration.swift */; };
 		0E895C431DFFE1E8006523F7 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E895C421DFFE1E8006523F7 /* Conversation.swift */; };
+		0EFCB5BB1E08C7E800130D89 /* InsertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCB5BA1E08C7E800130D89 /* InsertData.swift */; };
+		0EFCB5BD1E08ED3700130D89 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCB5BC1E08ED3700130D89 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E41F3241E021C4200950240 /* DataVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataVariable.swift; sourceTree = "<group>"; };
+		0E41F32A1E023B0700950240 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0E41F32C1E023B0E00950240 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0E41F32E1E023B1900950240 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0E41F3301E023B2300950240 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E41F3321E023B3300950240 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0E41F3331E023B3300950240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E41F3361E023B4500950240 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0E41F3381E023B5000950240 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0E41F33A1E023B5E00950240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E41F33C1E023B6B00950240 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0E41F33E1E023B8A00950240 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0E41F3401E023B9300950240 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0E41F3421E023BA400950240 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0E41F3441E023BB800950240 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0E41F3461E023BC400950240 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0E41F34A1E023CDF00950240 /* SearchProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProvider.swift; sourceTree = "<group>"; };
 		0E50A7721DFA55AB002085A0 /* Heyphil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heyphil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E50A7751DFA55AB002085A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E50A7771DFA55AB002085A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +49,8 @@
 		0E895C3E1DFFC2DF006523F7 /* PreRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreRegister.swift; path = ../PreRegister.swift; sourceTree = "<group>"; };
 		0E895C401DFFD957006523F7 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		0E895C421DFFE1E8006523F7 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		0EFCB5BA1E08C7E800130D89 /* InsertData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertData.swift; sourceTree = "<group>"; };
+		0EFCB5BC1E08ED3700130D89 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,11 +64,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E41F3291E023B0700950240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E41F3461E023BC400950240 /* SystemConfiguration.framework */,
+				0E41F3441E023BB800950240 /* Security.framework */,
+				0E41F3421E023BA400950240 /* QuartzCore.framework */,
+				0E41F3401E023B9300950240 /* ImageIO.framework */,
+				0E41F33E1E023B8A00950240 /* OpenGLES.framework */,
+				0E41F33C1E023B6B00950240 /* GLKit.framework */,
+				0E41F33A1E023B5E00950240 /* Foundation.framework */,
+				0E41F3381E023B5000950240 /* CoreText.framework */,
+				0E41F3361E023B4500950240 /* CoreLocation.framework */,
+				0E41F3321E023B3300950240 /* CoreFoundation.framework */,
+				0E41F3331E023B3300950240 /* CoreGraphics.framework */,
+				0E41F3301E023B2300950240 /* CoreData.framework */,
+				0E41F32E1E023B1900950240 /* CoreBluetooth.framework */,
+				0E41F32C1E023B0E00950240 /* AVFoundation.framework */,
+				0E41F32A1E023B0700950240 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0E50A7691DFA55AB002085A0 = {
 			isa = PBXGroup;
 			children = (
 				0E50A7741DFA55AB002085A0 /* Heyphil */,
 				0E50A7731DFA55AB002085A0 /* Products */,
+				0E41F3291E023B0700950240 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				0E50A7751DFA55AB002085A0 /* AppDelegate.swift */,
+				0EFCB5BC1E08ED3700130D89 /* CircleImage.swift */,
+				0EFCB5BA1E08C7E800130D89 /* InsertData.swift */,
 				0E895C401DFFD957006523F7 /* Registration.swift */,
 				0E895C3E1DFFC2DF006523F7 /* PreRegister.swift */,
 				0E50A7771DFA55AB002085A0 /* ViewController.swift */,
@@ -72,6 +118,7 @@
 				0E50A7811DFA55AB002085A0 /* Info.plist */,
 				0E895C421DFFE1E8006523F7 /* Conversation.swift */,
 				0E41F3241E021C4200950240 /* DataVariable.swift */,
+				0E41F34A1E023CDF00950240 /* SearchProvider.swift */,
 			);
 			path = Heyphil;
 			sourceTree = "<group>";
@@ -103,12 +150,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Philcare;
 				TargetAttributes = {
 					0E50A7711DFA55AB002085A0 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = PJW67BTRHH;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,10 +199,13 @@
 			files = (
 				0E895C411DFFD957006523F7 /* Registration.swift in Sources */,
 				0E50A7781DFA55AB002085A0 /* ViewController.swift in Sources */,
+				0EFCB5BB1E08C7E800130D89 /* InsertData.swift in Sources */,
 				0E895C3F1DFFC2DF006523F7 /* PreRegister.swift in Sources */,
 				0E41F3251E021C4200950240 /* DataVariable.swift in Sources */,
+				0EFCB5BD1E08ED3700130D89 /* CircleImage.swift in Sources */,
 				0E895C431DFFE1E8006523F7 /* Conversation.swift in Sources */,
 				0E50A7761DFA55AB002085A0 /* AppDelegate.swift in Sources */,
+				0E41F34B1E023CDF00950240 /* SearchProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +249,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -247,6 +299,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -276,6 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PJW67BTRHH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Heyphil",
+				);
 				INFOPLIST_FILE = Heyphil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -290,6 +347,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PJW67BTRHH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Heyphil",
+				);
 				INFOPLIST_FILE = Heyphil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
