@@ -106,6 +106,7 @@
 		0E50A7741DFA55AB002085A0 /* Heyphil */ = {
 			isa = PBXGroup;
 			children = (
+				8439CC421E08BB00006ABE31 /* Class */,
 				0E50A7751DFA55AB002085A0 /* AppDelegate.swift */,
 				0EFCB5BC1E08ED3700130D89 /* CircleImage.swift */,
 				0EFCB5BA1E08C7E800130D89 /* InsertData.swift */,
@@ -121,6 +122,13 @@
 				0E41F34A1E023CDF00950240 /* SearchProvider.swift */,
 			);
 			path = Heyphil;
+			sourceTree = "<group>";
+		};
+		8439CC421E08BB00006ABE31 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
