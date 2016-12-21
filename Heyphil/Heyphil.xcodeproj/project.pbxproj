@@ -62,6 +62,7 @@
 		0E50A7741DFA55AB002085A0 /* Heyphil */ = {
 			isa = PBXGroup;
 			children = (
+				8439CC421E08BB00006ABE31 /* Class */,
 				0E50A7751DFA55AB002085A0 /* AppDelegate.swift */,
 				0E895C401DFFD957006523F7 /* Registration.swift */,
 				0E895C3E1DFFC2DF006523F7 /* PreRegister.swift */,
@@ -74,6 +75,13 @@
 				0E41F3241E021C4200950240 /* DataVariable.swift */,
 			);
 			path = Heyphil;
+			sourceTree = "<group>";
+		};
+		8439CC421E08BB00006ABE31 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
