@@ -19,6 +19,13 @@ class Conversation: UIViewController, UITableViewDelegate, UITableViewDataSource
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        let imageName = "er_shield.jpg"
+        let img = UIImage(named: imageName)
+        var frame = CGRect(x: 100, y: 100, width: 50, height: 50)
+        var newView = ObjectView(frame: frame)
+        newView.image = img?.circleMask
+        newView.isUserInteractionEnabled = true
+        self.view.addSubview(newView)
         txtMessage.layer.borderWidth=2
         txtMessage.layer.cornerRadius=5
         txtMessage.layer.borderColor = UIColor(red: 0.00, green: 0.40, blue: 0.00, alpha: 1.0).cgColor;
@@ -60,15 +67,16 @@ class Conversation: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
-        let data = insertData[indexPath.row]
-        cell.textLabel?.text = data.text
-        cell.textLabel?.contentMode = UIViewContentMode.scaleAspectFill
-        cell.textLabel?.layer.cornerRadius = 5
-        cell.textLabel?.layer.borderWidth = 2
-        cell.textLabel?.layer.borderColor = UIColor(red: 0.00, green: 0.40, blue: 0.00, alpha: 1.0).cgColor;
         let imageName = "er_shield.jpg"
         let image = UIImage(named: imageName)
         cell.imageView?.image = image?.circleMask
+        let data = insertData[indexPath.row]
+        cell.textLabel?.text = data.text
+        cell.textLabel?.contentMode = UIViewContentMode.scaleAspectFit
+        cell.textLabel?.layer.cornerRadius = 5
+        cell.textLabel?.layer.borderWidth = 2
+        cell.textLabel?.layer.borderColor = UIColor(red: 0.00, green: 0.40, blue: 0.00, alpha: 1.0).cgColor;
+        
         /**let imageName = "er_shield.jpg"
         let image = UIImage(named: imageName)
         let newImage = resizeImage(image: image!, toTheSize: CGSize(width: 70.0, height: 70.0))
@@ -88,8 +96,13 @@ class Conversation: UIViewController, UITableViewDelegate, UITableViewDataSource
     @IBAction func btnSend(_ sender: UIButton) {
         insertData.append(InsertData(text: txtMessage.text!))
         tableView.reloadData()
+        if (txtMessage.text!.contains("Member"))
+        {
+            performSegue(withIdentifier: "memberInfo", sender: self)
+            
+        }
     }
-    func resizeImage(image:UIImage, toTheSize size:CGSize)->UIImage{
+    func resizeImage(_ image:UIImage, toTheSize size:CGSize)->UIImage{
         
         
         let scale = CGFloat(max(size.width/image.size.width,

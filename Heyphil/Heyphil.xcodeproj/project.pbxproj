@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E392F4D1E0A237200947AA3 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E392F4C1E0A237200947AA3 /* RestKit.framework */; };
+		0E392F4F1E0A238600947AA3 /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E392F4E1E0A238600947AA3 /* TextToSpeechV1.framework */; };
+		0E392F521E0A2D5900947AA3 /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E392F511E0A2D5900947AA3 /* SpeechToTextV1.framework */; };
 		0E41F3251E021C4200950240 /* DataVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41F3241E021C4200950240 /* DataVariable.swift */; };
 		0E41F34B1E023CDF00950240 /* SearchProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41F34A1E023CDF00950240 /* SearchProvider.swift */; };
+		0E4578101E1C8FA900DD78E1 /* ObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45780F1E1C8FA900DD78E1 /* ObjectView.swift */; };
+		0E45781D1E1CC02000DD78E1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F32A1E023B0700950240 /* Accelerate.framework */; };
+		0E45781E1E1CC02A00DD78E1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F3301E023B2300950240 /* CoreData.framework */; };
+		0E45781F1E1CC04200DD78E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F3331E023B3300950240 /* CoreGraphics.framework */; };
+		0E4578201E1CC04B00DD78E1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F3361E023B4500950240 /* CoreLocation.framework */; };
+		0E4578211E1CC05E00DD78E1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F3381E023B5000950240 /* CoreText.framework */; };
+		0E4578221E1CC06800DD78E1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F33C1E023B6B00950240 /* GLKit.framework */; };
+		0E4578231E1CC07A00DD78E1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F3401E023B9300950240 /* ImageIO.framework */; };
+		0E4578251E1CC09D00DD78E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4578241E1CC09D00DD78E1 /* libc++.tbd */; };
+		0E4578271E1CC0B800DD78E1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4578261E1CC0B800DD78E1 /* libz.tbd */; };
+		0E4578281E1CC0C900DD78E1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F33E1E023B8A00950240 /* OpenGLES.framework */; };
+		0E4578291E1CC0D500DD78E1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F3421E023BA400950240 /* QuartzCore.framework */; };
+		0E45782A1E1CC0E500DD78E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E41F3461E023BC400950240 /* SystemConfiguration.framework */; };
+		0E45782C1E1CC0EE00DD78E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E45782B1E1CC0EE00DD78E1 /* UIKit.framework */; };
+		0E4578311E1CC37C00DD78E1 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E45782F1E1CC37C00DD78E1 /* GoogleMaps.framework */; };
+		0E4578321E1CC37C00DD78E1 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4578301E1CC37C00DD78E1 /* GoogleMapsCore.framework */; };
+		0E4578341E1CC3B200DD78E1 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4578331E1CC3B200DD78E1 /* GoogleMapsBase.framework */; };
+		0E4578361E1CC8E500DD78E1 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E4578351E1CC8E500DD78E1 /* GoogleMaps.bundle */; };
+		0E4B08ED1E14A12000FE15EC /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B08EC1E14A12000FE15EC /* MemberData.swift */; };
 		0E50A7761DFA55AB002085A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50A7751DFA55AB002085A0 /* AppDelegate.swift */; };
 		0E50A7781DFA55AB002085A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50A7771DFA55AB002085A0 /* ViewController.swift */; };
 		0E50A77B1DFA55AB002085A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E50A7791DFA55AB002085A0 /* Main.storyboard */; };
 		0E50A77D1DFA55AB002085A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E50A77C1DFA55AB002085A0 /* Assets.xcassets */; };
 		0E50A7801DFA55AB002085A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E50A77E1DFA55AB002085A0 /* LaunchScreen.storyboard */; };
+		0E7591C71E1B44AE003E1A7F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7591C51E1B44AE003E1A7F /* FBSDKCoreKit.framework */; };
+		0E7591C81E1B44AE003E1A7F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7591C61E1B44AE003E1A7F /* FBSDKLoginKit.framework */; };
 		0E895C3F1DFFC2DF006523F7 /* PreRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E895C3E1DFFC2DF006523F7 /* PreRegister.swift */; };
 		0E895C411DFFD957006523F7 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E895C401DFFD957006523F7 /* Registration.swift */; };
 		0E895C431DFFE1E8006523F7 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E895C421DFFE1E8006523F7 /* Conversation.swift */; };
@@ -22,6 +46,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E392F4A1E0A21C500947AA3 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		0E392F4C1E0A237200947AA3 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		0E392F4E1E0A238600947AA3 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
+		0E392F511E0A2D5900947AA3 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
 		0E41F3241E021C4200950240 /* DataVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataVariable.swift; sourceTree = "<group>"; };
 		0E41F32A1E023B0700950240 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		0E41F32C1E023B0E00950240 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +67,15 @@
 		0E41F3441E023BB800950240 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0E41F3461E023BC400950240 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0E41F34A1E023CDF00950240 /* SearchProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProvider.swift; sourceTree = "<group>"; };
+		0E45780F1E1C8FA900DD78E1 /* ObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectView.swift; sourceTree = "<group>"; };
+		0E4578241E1CC09D00DD78E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0E4578261E1CC0B800DD78E1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0E45782B1E1CC0EE00DD78E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E45782F1E1CC37C00DD78E1 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		0E4578301E1CC37C00DD78E1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		0E4578331E1CC3B200DD78E1 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		0E4578351E1CC8E500DD78E1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Heyphil/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		0E4B08EC1E14A12000FE15EC /* MemberData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
 		0E50A7721DFA55AB002085A0 /* Heyphil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heyphil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E50A7751DFA55AB002085A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E50A7771DFA55AB002085A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +83,9 @@
 		0E50A77C1DFA55AB002085A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E50A77F1DFA55AB002085A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E50A7811DFA55AB002085A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7591C51E1B44AE003E1A7F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		0E7591C61E1B44AE003E1A7F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		0E7591C91E1B44CB003E1A7F /* Heyphil-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heyphil-Bridging-Header.h"; sourceTree = "<group>"; };
 		0E895C3E1DFFC2DF006523F7 /* PreRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreRegister.swift; path = ../PreRegister.swift; sourceTree = "<group>"; };
 		0E895C401DFFD957006523F7 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		0E895C421DFFE1E8006523F7 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
@@ -58,6 +98,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4578311E1CC37C00DD78E1 /* GoogleMaps.framework in Frameworks */,
+				0E45782C1E1CC0EE00DD78E1 /* UIKit.framework in Frameworks */,
+				0E45782A1E1CC0E500DD78E1 /* SystemConfiguration.framework in Frameworks */,
+				0E4578291E1CC0D500DD78E1 /* QuartzCore.framework in Frameworks */,
+				0E4578281E1CC0C900DD78E1 /* OpenGLES.framework in Frameworks */,
+				0E4578271E1CC0B800DD78E1 /* libz.tbd in Frameworks */,
+				0E4578251E1CC09D00DD78E1 /* libc++.tbd in Frameworks */,
+				0E4578321E1CC37C00DD78E1 /* GoogleMapsCore.framework in Frameworks */,
+				0E4578231E1CC07A00DD78E1 /* ImageIO.framework in Frameworks */,
+				0E4578341E1CC3B200DD78E1 /* GoogleMapsBase.framework in Frameworks */,
+				0E4578221E1CC06800DD78E1 /* GLKit.framework in Frameworks */,
+				0E4578211E1CC05E00DD78E1 /* CoreText.framework in Frameworks */,
+				0E4578201E1CC04B00DD78E1 /* CoreLocation.framework in Frameworks */,
+				0E45781F1E1CC04200DD78E1 /* CoreGraphics.framework in Frameworks */,
+				0E45781E1E1CC02A00DD78E1 /* CoreData.framework in Frameworks */,
+				0E45781D1E1CC02000DD78E1 /* Accelerate.framework in Frameworks */,
+				0E392F521E0A2D5900947AA3 /* SpeechToTextV1.framework in Frameworks */,
+				0E7591C71E1B44AE003E1A7F /* FBSDKCoreKit.framework in Frameworks */,
+				0E7591C81E1B44AE003E1A7F /* FBSDKLoginKit.framework in Frameworks */,
+				0E392F4F1E0A238600947AA3 /* TextToSpeechV1.framework in Frameworks */,
+				0E392F4D1E0A237200947AA3 /* RestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +128,14 @@
 		0E41F3291E023B0700950240 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E4578351E1CC8E500DD78E1 /* GoogleMaps.bundle */,
+				0E45782B1E1CC0EE00DD78E1 /* UIKit.framework */,
+				0E4578261E1CC0B800DD78E1 /* libz.tbd */,
+				0E4578241E1CC09D00DD78E1 /* libc++.tbd */,
+				0E392F511E0A2D5900947AA3 /* SpeechToTextV1.framework */,
+				0E392F4E1E0A238600947AA3 /* TextToSpeechV1.framework */,
+				0E392F4C1E0A237200947AA3 /* RestKit.framework */,
+				0E392F4A1E0A21C500947AA3 /* Speech.framework */,
 				0E41F3461E023BC400950240 /* SystemConfiguration.framework */,
 				0E41F3441E023BB800950240 /* Security.framework */,
 				0E41F3421E023BA400950240 /* QuartzCore.framework */,
@@ -106,7 +175,14 @@
 		0E50A7741DFA55AB002085A0 /* Heyphil */ = {
 			isa = PBXGroup;
 			children = (
+				0E4578331E1CC3B200DD78E1 /* GoogleMapsBase.framework */,
+				0E45782F1E1CC37C00DD78E1 /* GoogleMaps.framework */,
+				0E4578301E1CC37C00DD78E1 /* GoogleMapsCore.framework */,
 				0E50A7751DFA55AB002085A0 /* AppDelegate.swift */,
+				0E45780F1E1C8FA900DD78E1 /* ObjectView.swift */,
+				0E7591C51E1B44AE003E1A7F /* FBSDKCoreKit.framework */,
+				0E7591C61E1B44AE003E1A7F /* FBSDKLoginKit.framework */,
+				0E4B08EC1E14A12000FE15EC /* MemberData.swift */,
 				0EFCB5BC1E08ED3700130D89 /* CircleImage.swift */,
 				0EFCB5BA1E08C7E800130D89 /* InsertData.swift */,
 				0E895C401DFFD957006523F7 /* Registration.swift */,
@@ -119,6 +195,7 @@
 				0E895C421DFFE1E8006523F7 /* Conversation.swift */,
 				0E41F3241E021C4200950240 /* DataVariable.swift */,
 				0E41F34A1E023CDF00950240 /* SearchProvider.swift */,
+				0E7591C91E1B44CB003E1A7F /* Heyphil-Bridging-Header.h */,
 			);
 			path = Heyphil;
 			sourceTree = "<group>";
@@ -133,6 +210,7 @@
 				0E50A76E1DFA55AB002085A0 /* Sources */,
 				0E50A76F1DFA55AB002085A0 /* Frameworks */,
 				0E50A7701DFA55AB002085A0 /* Resources */,
+				0E392F501E0A239F00947AA3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -187,10 +265,30 @@
 				0E50A7801DFA55AB002085A0 /* LaunchScreen.storyboard in Resources */,
 				0E50A77D1DFA55AB002085A0 /* Assets.xcassets in Resources */,
 				0E50A77B1DFA55AB002085A0 /* Main.storyboard in Resources */,
+				0E4578361E1CC8E500DD78E1 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E392F501E0A239F00947AA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/TextToSpeechV1.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RestKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SpeechToTextV1.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E50A76E1DFA55AB002085A0 /* Sources */ = {
@@ -198,9 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E895C411DFFD957006523F7 /* Registration.swift in Sources */,
+				0E4B08ED1E14A12000FE15EC /* MemberData.swift in Sources */,
 				0E50A7781DFA55AB002085A0 /* ViewController.swift in Sources */,
 				0EFCB5BB1E08C7E800130D89 /* InsertData.swift in Sources */,
 				0E895C3F1DFFC2DF006523F7 /* PreRegister.swift in Sources */,
+				0E4578101E1C8FA900DD78E1 /* ObjectView.swift in Sources */,
 				0E41F3251E021C4200950240 /* DataVariable.swift in Sources */,
 				0EFCB5BD1E08ED3700130D89 /* CircleImage.swift in Sources */,
 				0E895C431DFFE1E8006523F7 /* Conversation.swift in Sources */,
@@ -278,6 +378,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -320,6 +421,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -327,17 +429,24 @@
 		0E50A7851DFA55AB002085A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PJW67BTRHH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Heyphil",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"/Users/philcare/Downloads/FacebookSDKs-iOS-4",
+					"/Users/philcare/Downloads/5a212b0fa429156f-GoogleMaps-2.0.1",
 				);
 				INFOPLIST_FILE = Heyphil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Heyphil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Heyphil/Heyphil-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -345,17 +454,23 @@
 		0E50A7861DFA55AB002085A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PJW67BTRHH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Heyphil",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"/Users/philcare/Downloads/FacebookSDKs-iOS-4",
+					"/Users/philcare/Downloads/5a212b0fa429156f-GoogleMaps-2.0.1",
 				);
 				INFOPLIST_FILE = Heyphil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Heyphil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Heyphil/Heyphil-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
