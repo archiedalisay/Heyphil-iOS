@@ -30,6 +30,7 @@ class ViewController: UIViewController,XMLParserDelegate, FBSDKLoginButtonDelega
     @IBOutlet weak var txtUsername: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
     @IBOutlet weak var lblSignup: UILabel!
+    
     @IBAction func btnLogin(_ sender: AnyObject) {
         str_username=txtUsername.text!
         str_password=txtPassword.text!
@@ -126,7 +127,7 @@ class ViewController: UIViewController,XMLParserDelegate, FBSDKLoginButtonDelega
                             {
                                 self.memberInfo()
                                 let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-                                let vc: UIViewController = storyBoard.instantiateViewController(withIdentifier: "searchprovider")
+                                let vc: UIViewController = storyBoard.instantiateViewController(withIdentifier: "conversation")
                                 
                                 OperationQueue.main.addOperation {
                                     self.present(vc, animated: true, completion: nil)
@@ -222,7 +223,7 @@ class ViewController: UIViewController,XMLParserDelegate, FBSDKLoginButtonDelega
     func Signup(_ sender:UITapGestureRecognizer)
     {
         let storyBoard: UIStoryboard = UIStoryboard (name: "Main", bundle: nil)
-        let preregisterView=storyBoard.instantiateViewController(withIdentifier: "preregister")
+        let preregisterView=storyBoard.instantiateViewController(withIdentifier: "conversation")
         self.present(preregisterView, animated: true, completion: nil)
     }
     func beginParsing()

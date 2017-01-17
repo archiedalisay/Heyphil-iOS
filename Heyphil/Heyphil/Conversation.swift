@@ -12,16 +12,17 @@ class Conversation: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     @IBOutlet weak var txtMessage: UITextField!
     @IBOutlet var tableView: UITableView!
-    var names: [String] = []
-    var contacts: [String] = []
     var items: [String] = ["We", "Can", "Do"]
     var insertData = [InsertData]()
+    var doctor = [Dictionary<String,Dictionary<String,AnyObject>>]()
+    var content = Dictionary<String, AnyObject>()
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         let imageName = "er_shield.jpg"
         let img = UIImage(named: imageName)
-        var frame = CGRect(x: 100, y: 100, width: 50, height: 50)
+        var frame = CGRect(x: 50, y: 600, width: 50, height: 50)
         var newView = ObjectView(frame: frame)
         newView.image = img?.circleMask
         newView.isUserInteractionEnabled = true
@@ -35,24 +36,6 @@ class Conversation: UIViewController, UITableViewDelegate, UITableViewDataSource
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         if insertData.count > 0 {
             return
-        }
-        let url=URL(string:"http://api.androidhive.info/contacts/")
-        do {
-            let allContactsData = try? Data(contentsOf: url!)
-            let allContacts = try JSONSerialization.jsonObject(with: allContactsData!, options: JSONSerialization.ReadingOptions.allowFragments)
-                as! [String : AnyObject]
-            if let arrJSON = allContacts["contacts"] as? NSArray{
-                for index in 0...arrJSON.count-1 {
-                    let aObject = arrJSON[index] as! [String : AnyObject]
-                    names.append(aObject["name"] as! String)
-                    contacts.append(aObject["email"] as! String)
-                }
-            }
-            print(names)
-            print(contacts)
-        }
-        catch
-        {
         }
     }
     override func didReceiveMemoryWarning() {
@@ -100,6 +83,19 @@ class Conversation: UIViewController, UITableViewDelegate, UITableViewDataSource
         {
             performSegue(withIdentifier: "memberInfo", sender: self)
             
+        }
+        else if (txtMessage.text!.contains("doctor"))
+        {
+             performSegue(withIdentifier: "searchdoctor", sender: self)
+        }
+        else if (txtMessage.text!.contains("provider"))
+        {
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc: UIViewController = storyBoard.instantiateViewController(withIdentifier: "searchprovider")
+            
+            OperationQueue.main.addOperation {
+                self.present(vc, animated: true, completion: nil)
+            }
         }
     }
     func resizeImage(_ image:UIImage, toTheSize size:CGSize)->UIImage{
